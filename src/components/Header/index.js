@@ -90,37 +90,25 @@ const Header = props => {
                 <NavItems>
                   <NavItem activeNav={activeNav === 'HOME'}>
                     <LinkGenerate to="/" onClick={clickHome}>
-                      <AiFillHome
-                        color={isDark ? '#00306e' : '#64748b'}
-                        size="16"
-                      />
+                      <AiFillHome color="#64748b" size="16" />
                       <Nav isDark={isDark}>Home</Nav>
                     </LinkGenerate>
                   </NavItem>
                   <NavItem activeNav={activeNav === 'TREND'}>
                     <LinkGenerate to="/trending" onClick={clickTrend}>
-                      <HiFire
-                        color={isDark ? '#00306e' : '#64748b'}
-                        size="16"
-                      />
+                      <HiFire color="#64748b" size="16" />
                       <Nav isDark={isDark}>Trending</Nav>
                     </LinkGenerate>
                   </NavItem>
                   <NavItem activeNav={activeNav === 'GAME'}>
                     <LinkGenerate to="/gaming" onClick={clickGame}>
-                      <GiLoveMystery
-                        color={isDark ? '#00306e' : '#64748b'}
-                        size="16"
-                      />
+                      <GiLoveMystery color="#64748b" size="16" />
                       <Nav isDark={isDark}>Gaming</Nav>
                     </LinkGenerate>
                   </NavItem>
                   <NavItem activeNav={activeNav === 'SAVEDVIDEO'}>
                     <LinkGenerate to="/saved-videos" onClick={clickSavedVideo}>
-                      <RiMenuAddFill
-                        color={isDark ? '#00306e' : '#64748b'}
-                        size="16"
-                      />
+                      <RiMenuAddFill color="#64748b" size="16" />
                       <Nav isDark={isDark}>Saved videos</Nav>
                     </LinkGenerate>
                   </NavItem>

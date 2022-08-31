@@ -6,14 +6,13 @@ export const LinkForLogo = styled(Link)`
 `
 
 export const HeaderContainer = styled.div`
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   min-height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding-left: 10px;
-  border-bottom: 1px solid grey;
   @media (min-width: 768px) {
     padding-left: 20px;
     padding-right: 20px;
@@ -108,7 +107,6 @@ export const HeaderContainerDark = styled.div`
   align-items: center;
   justify-content: space-between;
   padding-left: 10px;
-  border-bottom: 1px solid grey;
   @media (min-width: 768px) {
     padding-left: 20px;
     padding-right: 20px;
@@ -303,7 +301,7 @@ export const LinkGenerate = styled(Link)`
 `
 
 export const Nav = styled.p`
-  color: ${props => (props.isDark ? '#00306e' : '#64748b')};
+  color: #64748b;
   font-size: 16px;
   font-family: 'Roboto';
   font-weight: bold;

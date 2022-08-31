@@ -128,6 +128,7 @@ class VideoItemDetails extends Component {
         profileImageUrl: data.video_details.channel.profile_image_url,
         subscriberCount: data.video_details.channel.subscriber_count,
       }
+      console.log(updatedData)
 
       this.setState({
         videoDetails: updatedData,

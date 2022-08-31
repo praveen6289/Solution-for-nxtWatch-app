@@ -17,7 +17,7 @@ export const HomeContainer = styled.div`
 
 export const SideBarContainer = styled.div`
   display: none;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   @media (min-width: 768px) {
     height: 90vh;
     width: 25vw;
@@ -26,7 +26,6 @@ export const SideBarContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-right: 1px solid grey;
   }
 `
 export const NavLinksContainer = styled.div`
@@ -116,7 +115,7 @@ export const HomeBarContainerDark = styled.div`
   min-height: 90vh;
   width: 100vw;
   padding: 15px;
-  background-color: #181818;
+  background-color: #0f0f0f;
   @media (min-width: 768px) {
     width: 75vw;
   }
@@ -244,7 +243,6 @@ export const SideBarContainerDark = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-right: 1px solid grey;
   }
 `
 export const LinkContainerHomeDark = styled.div`
